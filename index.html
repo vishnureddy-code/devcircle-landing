@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevCircle · Student Tech Club</title>
+  <link rel="stylesheet" href="output.css">
+
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Navbar -->
+  <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-2">
+        <div class="h-8 w-8 rounded-lg bg-indigo-500 flex items-center justify-center text-xs font-bold">
+          DC
+        </div>
+        <span class="text-lg font-semibold">DevCircle</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#about" class="hover:text-white">About</a>
+        <a href="#events" class="hover:text-white">Events</a>
+        <a href="#team" class="hover:text-white">Team</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+      <a href="#join" class="hidden md:inline-block rounded-full bg-indigo-500 px-4 py-2 text-sm font-medium hover:bg-indigo-600">
+        Join Now
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-4 py-16 grid gap-10 md:grid-cols-2 items-center">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-wide text-indigo-400 mb-3">
+        Global Student Tech Community
+      </p>
+      <h1 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+        Learn, build & grow with DevCircle
+      </h1>
+      <p class="text-slate-300 mb-6 text-sm md:text-base">
+        A student‑led community for coding, hackathons, tech talks, and real projects.
+        Open to beginners and self‑taught learners from anywhere.
+      </p>
+      <div class="flex flex-wrap items-center gap-3">
+        <a id="join" href="#contact" class="rounded-full bg-indigo-500 px-5 py-2.5 text-sm font-semibold hover:bg-indigo-600">
+          Join the club
+        </a>
+        <a href="#events" class="text-sm text-slate-300 hover:text-white">
+          View upcoming events →
+        </a>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-4 text-xs text-slate-400">
+        <div class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+          Weekly coding sessions
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-indigo-400"></span>
+          Project mentorship
+        </div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -top-6 -left-6 h-24 w-24 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-10 -right-3 h-32 w-32 rounded-full bg-fuchsia-500/10 blur-3xl"></div>
+
+      <div class="relative rounded-2xl border border-slate-800 bg-slate-900/60 p-5 shadow-xl">
+        <p class="text-xs font-semibold text-indigo-400 mb-2">
+          Next highlight
+        </p>
+        <h2 class="text-lg font-semibold mb-1">
+          DevJam 2025 · 24‑hour hackathon
+        </h2>
+        <p class="text-xs text-slate-300 mb-4">
+          Build innovative solutions with your team, get mentored by community leaders, and win exciting prizes.
+        </p>
+
+        <div class="grid grid-cols-3 gap-3 mb-4 text-center text-xs">
+          <div class="rounded-lg bg-slate-900 border border-slate-800 p-2">
+            <p class="text-slate-400">Date</p>
+            <p class="font-semibold mt-1">March 15</p>
+          </div>
+          <div class="rounded-lg bg-slate-900 border border-slate-800 p-2">
+            <p class="text-slate-400">Mode</p>
+            <p class="font-semibold mt-1">Online</p>
+          </div>
+          <div class="rounded-lg bg-slate-900 border border-slate-800 p-2">
+            <p class="text-slate-400">Seats</p>
+            <p class="font-semibold mt-1">120</p>
+          </div>
+        </div>
+
+        <button class="w-full rounded-lg bg-indigo-500 py-2 text-sm font-semibold hover:bg-indigo-600">
+          Register interest
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-10">
+    <h2 class="text-xl md:text-2xl font-semibold mb-4">About DevCircle</h2>
+    <p class="text-sm md:text-base text-slate-300 max-w-2xl">
+      DevCircle is a community of students and self‑taught developers passionate about software,
+      open source, and tech events. We organize hands‑on workshops, coding contests, speaker sessions,
+      and collaborative projects in web, app, and AI.
+    </p>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl md:text-2xl font-semibold">Upcoming events</h2>
+      <span class="text-xs text-slate-400">New events every month</span>
+    </div>
+    <div class="grid gap-5 md:grid-cols-3">
+      <!-- Event 1 -->
+      <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-xs text-indigo-400 font-semibold mb-1">Workshop</p>
+        <h3 class="text-sm font-semibold mb-1">Frontend Fundamentals</h3>
+        <p class="text-xs text-slate-300 mb-3">
+          Learn HTML, CSS and Tailwind basics by building a simple landing page in a hands‑on session.
+        </p>
+        <p class="text-xs text-slate-400 mb-1">Date: Feb 10</p>
+        <p class="text-xs text-slate-400">Level: Beginner friendly</p>
+      </article>
+
+      <!-- Event 2 -->
+      <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-xs text-emerald-400 font-semibold mb-1">Coding Contest</p>
+        <h3 class="text-sm font-semibold mb-1">DSA Sprint Night</h3>
+        <p class="text-xs text-slate-300 mb-3">
+          2‑hour competitive programming contest covering arrays, strings, and basic algorithms.
+        </p>
+        <p class="text-xs text-slate-400 mb-1">Date: Feb 24</p>
+        <p class="text-xs text-slate-400">Prizes for top performers</p>
+      </article>
+
+      <!-- Event 3 -->
+      <article class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-xs text-fuchsia-400 font-semibold mb-1">Meetup</p>
+        <h3 class="text-sm font-semibold mb-1">Project Showcase & AMA</h3>
+        <p class="text-xs text-slate-300 mb-3">
+          See community projects, ask questions, and get guidance on roadmaps and internships.
+        </p>
+        <p class="text-xs text-slate-400 mb-1">Date: March 5</p>
+        <p class="text-xs text-slate-400">Open Q&A with mentors</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="max-w-6xl mx-auto px-4 py-10">
+    <h2 class="text-xl md:text-2xl font-semibold mb-4">Core team</h2>
+    <div class="grid gap-5 md:grid-cols-3">
+      <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-sm font-semibold mb-1">vishnu vardhan reddy</p>
+        <p class="text-xs text-slate-400 mb-2">Community Lead</p>
+        <p class="text-xs text-slate-300">
+          Coordinates events, partnerships, and mentorship programs with developers and creators.
+        </p>
+      </div>
+      <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-sm font-semibold mb-1">vishnu</p>
+        <p class="text-xs text-slate-400 mb-2">Technical Lead</p>
+        <p class="text-xs text-slate-300">
+          Leads coding sessions and project teams for web, app, and AI tracks.
+        </p>
+      </div>
+      <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+        <p class="text-sm font-semibold mb-1">vishnu</p>
+        <p class="text-xs text-slate-400 mb-2">Design & Media</p>
+        <p class="text-xs text-slate-300">
+          Manages visuals, social media, and branding for events and announcements.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Join form -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-12 grid gap-8 md:grid-cols-2 items-start">
+    <div>
+      <h2 class="text-xl md:text-2xl font-semibold mb-3">Join DevCircle</h2>
+      <p class="text-sm md:text-base text-slate-300 mb-3">
+        Fill this quick form and we will add you to our community channels and mailing list.
+      </p>
+      <p class="text-xs text-slate-400">
+        You will receive updates about workshops, contests, and collaborative projects.
+      </p>
+    </div>
+    <form class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 space-y-4">
+      <div>
+        <label class="block text-xs mb-1" for="name">Full name</label>
+        <input id="name" type="text" placeholder="Your name"
+          class="w-full rounded-lg bg-slate-950 border border-slate-700 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none" />
+      </div>
+      <div>
+        <label class="block text-xs mb-1" for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com"
+          class="w-full rounded-lg bg-slate-950 border border-slate-700 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none" />
+      </div>
+      <div>
+        <label class="block text-xs mb-1" for="role">Role / background</label>
+        <input id="role" type="text" placeholder="Student, self‑taught dev, designer, etc."
+          class="w-full rounded-lg bg-slate-950 border border-slate-700 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none" />
+      </div>
+      <div>
+        <label class="block text-xs mb-1" for="interest">What are you interested in?</label>
+        <textarea id="interest" rows="3" placeholder="Web dev, contests, AI, design, open source, etc."
+          class="w-full rounded-lg bg-slate-950 border border-slate-700 px-3 py-2 text-sm resize-none focus:border-indigo-500 focus:outline-none"></textarea>
+      </div>
+      <button type="submit" class="w-full rounded-lg bg-indigo-500 py-2 text-sm font-semibold hover:bg-indigo-600">
+        Submit interest form
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 px-4 py-4 text-xs text-slate-500">
+      <p>© 2025 DevCircle · Student Tech Club</p>
+      <p>Made with HTML & Tailwind CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
