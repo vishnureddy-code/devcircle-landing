@@ -18,14 +18,11 @@ A responsive tech club landing page built with **HTML + Tailwind CSS**. Features
 ## 🛠 Tech Stack
 HTML5 | Tailwind CSS | GitHub Pages | VS Code
 
-text
-
 ## 🚀 Quick Start (Local)
 npm install
 npm run build
 
 Open index.html with Live Server
-text
 
 ## 📁 Project Structure
 devcircle-landing/
@@ -43,4 +40,4 @@ devcircle-landing/
 ---
 
 **Made by [P. Vishnu Vardhan Reddy](https://github.com/vishnureddy-code)**  
-**1st Year CSE | Learning Web Development** [web:53][web:73][web:77]
+**1st Year CSE | Learning Web Development** 
